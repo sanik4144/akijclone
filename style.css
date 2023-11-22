@@ -1,0 +1,43 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+}
+.navimage a{
+    display: flex;
+    margin-left: 200px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navimage p{
+    color: rgb(51, 51, 51);
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    border-bottom: 5px solid #FFB300;
+}
+.navitems{
+    margin-left: 350px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.navbar li ul a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: .9rem;
+}
+.navbar li ul a:hover{
+    color: #FFB300;
+    transition: 0.3s;
+}
+.navbar li ul{
+    display: inline;
+}
+
+
+
+
+.section01 div img{
+    max-width: fit-content;
+}
