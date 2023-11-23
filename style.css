@@ -36,8 +36,106 @@ body{
 }
 
 
+.section02{
+    border: 0.1px solid black;
+    background-image: url(images/AKIJ-BAKERS-C.jpg);
+}
+
+.section02 img{
+    border-radius: 50%;
+}
+.section02 div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 15%;
+    margin-top: 120px;
+    padding: 50px;
+    /* From https://css.glass */
+    background: rgba(30, 20, 20, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(0.7px);
+    border: 1px solid rgba(30, 20, 20, 0.26);
+}
+.section02 div p{
+    padding: 50px;
+}
+.section02 div button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(30, 20, 20, 0.35);
+    border-radius: 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.7px);
+    -webkit-backdrop-filter: blur(0.7px);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    height: 50px;
+    width: 300px;
+}
 
 
-.section01 div img{
-    max-width: fit-content;
+
+
+
+.section03{
+    background-color: #FDE8B2;
+    padding: 10%;
+    margin-bottom: 1000px;
+    display: flex;
+}
+.sec3part1 p{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.sec3part1 h1{
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.sec3part2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.sec3part2 ul li{
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #5A534C;
+}
+.sec3part2 ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.subsec3{
+    margin-left: 100px;
+}
+.sec3part3{
+    display: flex;
+    text-align: center;
+    height: 350px;
+}
+.sec3part3 div{
+    margin: 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 230px;
+    padding-top: 45px;
+}
+
+.sec3part4{
+    display: flex;
+    text-align: center;
+    height: 350px;
+}
+.sec3part4 div{
+    margin: 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+    width: 230px;
+    padding-top: 45px;
 }
