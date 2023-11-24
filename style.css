@@ -119,23 +119,123 @@ body{
     text-align: center;
     height: 350px;
 }
-.sec3part3 div{
+.card1{
     margin: 10px;
-    border: 1px solid black;
+    //border: 1px solid black;
     justify-content: space-between;
     width: 230px;
     padding-top: 45px;
+    position: relative;
 }
+.card1-side{
+    height: 18rem;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.card1-side.front p{
+    color: #289077;
+}
+.card1-side.back {
+    transform: rotateY(-180deg);
+    background-color: white;
+}
+.card1-side.back h1{
+    color: #289077;
+    margin-top: 50px;
+}
+.card1-side.back p{
+    font-size: .8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 8px;
+    opacity: 50%;
+    font-weight: 100;
+}
+.card1-side.back button{
+    background-color: #449D44;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+}
+.card1-side.back button:hover{
+    transition: .5s;
+    cursor: pointer;
+    background-color: #53c253;
+}
+.card1:hover .card1-side.front {
+    transform: rotateY(180deg);
+    transition: all 1.2s;
+}
+  
+.card1:hover .card1-side.back {
+    transform: rotateY(0deg);
+    transition: all 1.2s;
+}
+
+
+
+
 
 .sec3part4{
     display: flex;
     text-align: center;
     height: 350px;
 }
-.sec3part4 div{
+.card2{
     margin: 10px;
-    border: 1px solid black;
+    //border: 1px solid black;
     justify-content: space-between;
     width: 230px;
     padding-top: 45px;
+    position: relative;
+}
+.card2-side{
+    height: 18rem;
+    border-radius: 5px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.card2-side.front p{
+    color: #289077;
+}
+.card2-side.back {
+    transform: rotateY(-180deg);
+    background-color: white;
+}
+.card2-side.back h1{
+    color: #289077;
+    margin-top: 50px;
+}
+.card2-side.back p{
+    font-size: .8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 8px;
+    opacity: 50%;
+    font-weight: 100;
+}
+.card2-side.back button{
+    background-color: #449D44;
+    border: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 35px;
+}
+.card2-side.back button:hover{
+    transition: .5s;
+    cursor: pointer;
+    background-color: #53c253;
+}
+.card2:hover .card2-side.front {
+    transform: rotateY(180deg);
+    transition: all 1.2s;
+}
+  
+.card2:hover .card2-side.back {
+    transform: rotateY(0deg);
+    transition: all 1.2s;
 }
