@@ -82,7 +82,7 @@ body{
 .section03{
     background-color: #FDE8B2;
     padding: 10%;
-    margin-bottom: 1000px;
+    margin-bottom: 100px;
     display: flex;
 }
 .sec3part1 p{
@@ -238,4 +238,75 @@ body{
 .card2:hover .card2-side.back {
     transform: rotateY(0deg);
     transition: all 1.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section04{
+    display: flex;
+    padding: 15%;
+    padding-top: 100px;
+    background-image: url(images/Akij-Bakers-17.jpg);
+    background-repeat: no-repeat;
+}
+.sec4part1{
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+}
+.sec4part1 h1{
+    color: #289077;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.forminput input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0px;
+    border-bottom: 1px solid black;
+    opacity: 50%;
+    width: 300px;
+    margin: 20px;
+}
+.forminput textarea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0px;
+    border-bottom: 1px solid black;
+    opacity: 50%;
+    width: 300px;
+    margin: 20px;   
+}
+.formbtn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    transition: all .5s;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formbtn:hover{
+    background-color: #EF535E;
+    transition: all .5s;
+    cursor: pointer;
+}
+.sec4part2{
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    height: 500px;
+    width: 550px;
+    text-align: center;
 }
